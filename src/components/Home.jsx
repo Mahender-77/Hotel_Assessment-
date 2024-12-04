@@ -26,7 +26,7 @@ function Home() {
   if (error) return <p>Error loading hotels.</p>;
   return (
     <div className="container">
-      <h1>MAA Hotels</h1>
+      <h1>MAA Hotel</h1>
       <div className="home">
         {data.map((hotel) => (
           <div key={hotel.id} className="card">
